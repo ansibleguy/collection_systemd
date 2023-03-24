@@ -1,6 +1,7 @@
 # Ansible Collection - ansibleguy.systemd
 
-[![Lint Test Status](https://badges.ansibleguy.net/systemd.collection.lint.svg)](https://github.com/ansibleguy/collection_systemd/blob/latest/scripts/lint.sh)
+<!-- [![Lint Test Status](https://badges.ansibleguy.net/systemd.collection.lint.svg)](https://github.com/ansibleguy/collection_systemd/blob/latest/scripts/lint.sh) -->
+
 [![Docs](https://readthedocs.org/projects/systemd_ansible/badge/?version=latest&style=flat)](https://systemd.ansibleguy.net)
 [![Ansible Galaxy](https://img.shields.io/ansible/collection/2148)](https://galaxy.ansible.com/ansibleguy/systemd)
 
