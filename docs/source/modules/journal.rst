@@ -26,7 +26,7 @@ Module alias: ansibleguy.systemd.journalctl
     "limit","string","false","\-","lim","One of 'system', 'user'. Show messages from system services and the kernel (with --system). Show messages from service of current user (with --user). If neither is specified, show all messages that the user can see"
     "since","string","false","\-","start, time_since, start_time","Limit the time period to query for. Examples: '1 hour ago', '2 days ago', '2023-03-24 21:15:00'"
     "until","string","false","\-","stop, time_until, stop_time","Limit the time period to query for. Examples: '1 hour ago', '2 days ago', '2023-03-24 21:15:00'"
-    "fields","string","false","\-","fds","A comma separated list of the fields which should be included in the output. This has an effect only for the output modes which would normally show all fields (verbose, export, json, json-pretty, json-sse and json-seq), as well as on cat. For the former, the "__CURSOR", "__REALTIME_TIMESTAMP", "__MONOTONIC_TIMESTAMP", and "_BOOT_ID" fields are always printed"
+    "fields","string","false","\-","fds","A comma separated list of the fields which should be included in the output. This has an effect only for the output modes which would normally show all fields (verbose, export, json, json-pretty, json-sse and json-seq), as well as on cat. For the former, the \"__CURSOR\", \"__REALTIME_TIMESTAMP\", \"__MONOTONIC_TIMESTAMP\", and \"_BOOT_ID\" fields are always printed"
     "format","string","false","\-","fmt","Controls the formatting of the journal entries that are shown"
 
 Examples
