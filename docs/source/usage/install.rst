@@ -2,9 +2,9 @@
 
 .. include:: ../_include/head.rst
 
-================
-1 - Installation
-================
+============
+Installation
+============
 
 
 Ansible
