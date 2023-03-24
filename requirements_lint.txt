@@ -1,3 +1,4 @@
 # pip requirements
 yamllint
 pylint
+ansible-core
