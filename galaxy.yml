@@ -1,0 +1,22 @@
+---
+
+namespace: 'ansibleguy'
+name: 'systemd'
+version: 1.0.0
+readme: 'README.md'
+authors:
+  - 'AnsibleGuy <guy@ansibleguy.net>'
+description: "Ansible modules to work with systemd (journalctl)"
+license_file: 'LICENSE.txt'
+tags:
+  - 'systemd'
+  - 'journal'
+  - 'journalctl'
+  - 'logs'
+  - 'logging'
+dependencies: {}
+repository: 'https://github.com/ansibleguy/collection_systemd'
+documentation: 'https://systemd.ansibleguy.net'
+homepage: 'https://ansibleguy.net'
+issues: 'https://github.com/ansibleguy/collection_systemd/issues'
+build_ignore: []
