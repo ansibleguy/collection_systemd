@@ -3,7 +3,7 @@
 <!-- [![Lint Test Status](https://badges.ansibleguy.net/systemd.collection.lint.svg)](https://github.com/ansibleguy/collection_systemd/blob/latest/scripts/lint.sh) -->
 
 [![Docs](https://readthedocs.org/projects/systemd_ansible/badge/?version=latest&style=flat)](https://systemd.ansibleguy.net)
-[![Ansible Galaxy](https://img.shields.io/ansible/collection/2148)](https://galaxy.ansible.com/ansibleguy/systemd)
+[![Ansible Galaxy](https://badges.ansibleguy.net/galaxy.badge.svg)](https://galaxy.ansible.com/ui/repo/published/ansibleguy/systemd)
 
 ----
 
