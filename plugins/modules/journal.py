@@ -7,8 +7,8 @@ from pathlib import Path
 
 from ansible.module_utils.basic import AnsibleModule
 
-DOCUMENTATION = 'https://systemd.ansibleguy.net/en/latest/modules/journal.html'
-EXAMPLES = 'https://systemd.ansibleguy.net/en/latest/modules/journal.html'
+# DOCUMENTATION = 'https://systemd.ansibleguy.net/en/latest/modules/journal.html'
+# EXAMPLES = 'https://systemd.ansibleguy.net/en/latest/modules/journal.html'
 
 DEFAULT_BIN = '/usr/bin/journalctl'
 
