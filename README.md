@@ -23,11 +23,11 @@ Feel free to contribute to this project using [pull-requests](https://github.com
 Install the collection:
 
 ```bash
-# stable/tested version:
-ansible-galaxy collection install ansibleguy.systemd
-
 # latest version:
 ansible-galaxy collection install git+https://github.com/ansibleguy/collection_systemd.git
+
+# stable/tested version:
+ansible-galaxy collection install ansibleguy.systemd
 
 # install to specific directory for easier development
 cd $PLAYBOOK_DIR
