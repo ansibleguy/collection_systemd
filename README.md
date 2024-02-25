@@ -40,6 +40,8 @@ ansible-galaxy collection install git+https://github.com/ansibleguy/collection_s
 
 See: [Docs](https://systemd.ansibleguy.net)
 
+You want a simple Ansible GUI? Check-out my [Ansible WebUI](https://github.com/ansibleguy/webui)
+
 ----
 
 ## Modules
