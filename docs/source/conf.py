@@ -20,7 +20,7 @@ source_suffix = {
     '.rst': 'restructuredtext',
 }
 html_theme_options = {
-    "banner_text": 'Check out <a href="https://github.com/ansibleguy/collection_opnsense">the repository on GitHub</a> | '
-                   'Report <a href="https://github.com/ansibleguy/collection_opnsense/issues/new/choose">missing/incorrect information or broken links</a>'
+    'banner_text': 'Check out <a href="https://github.com/ansibleguy/collection_systemd">the repository on GitHub</a> | '
+                   'Report <a href="https://github.com/ansibleguy/collection_systemd/issues/new/choose">missing/incorrect information or broken links</a>'
 }
 html_short_title = 'Ansible Systemd'
