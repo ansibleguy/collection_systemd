@@ -44,7 +44,7 @@ HTML_META_EN="${HTML_META}"  # <link rel=\"alternate\" href=\"https://docs.o-x-l
 # HTML_LOGO_LINK_SRC='href=".*Go to homepage"'
 # HTML_LOGO_LINK_EN='href="https://www.o-x-l.com" class="oxl-nav-logo" title="OXL IT Services Website"'
 HTML_TITLE_BAD_EN='Ansible Collection - Systemd  documentation'
-HTML_TITLE_OK='NFTables Ansible Collection'
+HTML_TITLE_OK='Systemd Ansible Collection'
 HTML_LANG_NONE='<html'
 HTML_LANG_EN='html lang="en"'
 
