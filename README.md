@@ -52,4 +52,4 @@ You want a simple Ansible GUI? Check-out my [Ansible WebUI](https://github.com/a
 
 | Function    | Module                     | Usage                                                                     |
 |:------------|:---------------------------|:----------------------------------------------------------------------|
-| **Journal** | ansibleguy.systemd.journal | [Docs](https://systemd.ansibleguy.net/en/latest/modules/journal.html) |
+| **Journal** | ansibleguy.systemd.journal | [Docs](https://systemd.ansibleguy.net/modules/journal.html) |
