@@ -43,6 +43,8 @@ See: [Docs](https://systemd.ansibleguy.net)
 
 [![Docs Uptime](https://status.oxl.at/api/v1/endpoints/4--ansibleguy_ansible-collection---systemd-documentation/uptimes/7d/badge.svg)](https://status.oxl.at/endpoints/4--ansibleguy_ansible-collection---systemd-documentation)
 
+[Alternative Link](https://systemd-ansible.readthedocs.io/)
+
 You want a simple Ansible GUI? Check-out my [Ansible WebUI](https://github.com/ansibleguy/webui)
 
 ----
