@@ -1,8 +1,17 @@
 # Ansible Collection - ansibleguy.systemd
 
-<!-- [![Lint Test Status](https://badges.ansibleguy.net/systemd.collection.lint.svg)](https://github.com/ansibleguy/collection_systemd/blob/latest/scripts/lint.sh) -->
-
+[![Lint](https://github.com/ansibleguy/collection_systemd/actions/workflows/lint.yml/badge.svg)](https://github.com/ansibleguy/collection_systemd/actions/workflows/lint.yml)
 [![Ansible Galaxy](https://badges.ansibleguy.net/galaxy.badge.svg)](https://galaxy.ansible.com/ui/repo/published/ansibleguy/systemd)
+
+**Functional Tests**: 
+
+* Status: [![Functional Test Status](https://badges.ansibleguy.net/systemd.collection.test.svg)](https://github.com/ansibleguy/collection_systemd/blob/latest/scripts/test.sh) |
+[![Functional-Tests](https://github.com/ansibleguy/collection_systemd/actions/workflows/functional_test_result.yml/badge.svg)](https://github.com/ansibleguy/collection_systemd/actions/workflows/functional_test_result.yml)
+* Logs: [API](https://ci.ansibleguy.net/api/job/ansible-test-collection-systemd/logs?token=2b7bba30-9a37-4b57-be8a-99e23016ce70&lines=1000) |
+[Daily Archive](https://github.com/ansibleguy/collection_systemd/actions/workflows/functional_test_result.yml) |
+[Short](https://badges.ansibleguy.net/log/collection_systemd_test_short.log) | [Full](https://badges.ansibleguy.net/log/collection_systemd_test.log)
+
+Internal CI: [Tester Role](https://github.com/ansibleguy/_meta_cicd) | [Jobs API](https://github.com/O-X-L/github-self-hosted-jobs-systemd)
 
 ----
 
