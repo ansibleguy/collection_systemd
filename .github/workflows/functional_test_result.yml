@@ -3,8 +3,8 @@
 name: Functional-Tests
 
 on:
-  schedule:
-    - cron: "38 6 * * *"
+  # schedule:
+  #   - cron: "38 6 * * *"
   workflow_dispatch:
 
 jobs:
