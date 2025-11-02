@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-   <url><loc>https://systemd.ansibleguy.net/en/latest/</loc></url>
-
-   <url><loc>https://systemd.ansibleguy.net/en/latest/usage/install.html</loc></url>
-
-   <url><loc>https://systemd.ansibleguy.net/en/latest/modules/journal.html</loc></url>
+   <url><loc>https://ansible-systemd.oxl.app/</loc></url>
+   <url><loc>https://ansible-systemd.oxl.app/usage/install.html</loc></url>
+   <url><loc>https://ansible-systemd.oxl.app/modules/journal.html</loc></url>
 </urlset>

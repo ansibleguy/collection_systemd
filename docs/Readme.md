@@ -1,3 +1,3 @@
 # Documentation
 
-Sphinx-based documentation: [https://systemd.ansibleguy.net](https://systemd.ansibleguy.net)
+Sphinx-based documentation: [https://ansible-systemd.oxl.app](https://ansible-systemd.oxl.app)

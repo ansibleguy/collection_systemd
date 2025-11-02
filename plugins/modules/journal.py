@@ -1,15 +1,15 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
 
-# Copyright: (C) 2023, AnsibleGuy <guy@ansibleguy.net>
+# Copyright: (C) 2025, Rath Pascal <contact+systemd@oxl.at>
 # GNU General Public License v3.0+ (see https://www.gnu.org/licenses/gpl-3.0.txt)
 
 from pathlib import Path
 
 from ansible.module_utils.basic import AnsibleModule
 
-# DOCUMENTATION = 'https://systemd.ansibleguy.net/modules/journal.html'
-# EXAMPLES = 'https://systemd.ansibleguy.net/modules/journal.html'
+# DOCUMENTATION = 'https://ansible-systemd.oxl.app/modules/journal.html'
+# EXAMPLES = 'https://ansible-systemd.oxl.app/modules/journal.html'
 
 DEFAULT_BIN = '/usr/bin/journalctl'
 
