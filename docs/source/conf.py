@@ -94,4 +94,3 @@ html_theme_options = {
 }
 html_title = 'Systemd Ansible'
 html_short_title = 'Systemd Ansible Collection (Community)'
-
