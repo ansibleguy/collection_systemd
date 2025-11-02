@@ -5,4 +5,4 @@ requires_ansible: ">=2.10"
 plugin_routing:
   modules:
     journalctl:
-      redirect: ansibleguy.systemd.journal
+      redirect: oxlorg.systemd.journal

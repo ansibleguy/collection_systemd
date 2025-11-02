@@ -11,10 +11,10 @@ Systemd Journal
 Definition
 **********
 
-ansibleguy.systemd.journal
+oxlorg.systemd.journal
 ==========================
 
-Module alias: ansibleguy.systemd.journalctl
+Module alias: oxlorg.systemd.journalctl
 
 ..  csv-table:: Definition
     :header: "Parameter", "Type", "Required", "Default", "Aliases", "Comment"
@@ -32,7 +32,7 @@ Module alias: ansibleguy.systemd.journalctl
 Examples
 ********
 
-ansibleguy.systemd.journal
+oxlorg.systemd.journal
 ==========================
 
 .. code-block:: yaml
@@ -41,7 +41,7 @@ ansibleguy.systemd.journal
       gather_facts: no
       tasks:
         - name: Example
-          ansibleguy.systemd.journal:
+          oxlorg.systemd.journal:
             unit: 'example'
             # lines: ''
             # reverse: false
@@ -52,7 +52,7 @@ ansibleguy.systemd.journal
             # format: ''
 
         - name: Pulling journal for apache2
-          ansibleguy.systemd.journal:
+          oxlorg.systemd.journal:
             unit: 'apache2.service'
           register: j1
 
@@ -60,7 +60,7 @@ ansibleguy.systemd.journal
             var: j1.data
 
         - name: Pulling journal for nginx and haproxy in the last hour
-          ansibleguy.systemd.journal:
+          oxlorg.systemd.journal:
             unit: ['nginx.service', 'haproxy.service']
             since: '1 hour ago'
           register: j2
@@ -69,7 +69,7 @@ ansibleguy.systemd.journal
             var: j2.data
 
         - name: Pulling nftables logs from time period
-          ansibleguy.systemd.journal:
+          oxlorg.systemd.journal:
             unit: ['nftables.service']
             since: '2023-03-24 21:15:00'
             until: '2023-03-24 21:45:00'
@@ -79,7 +79,7 @@ ansibleguy.systemd.journal
             var: j3.data
 
         - name: Pulling last 100 docker logs in reverse
-          ansibleguy.systemd.journal:
+          oxlorg.systemd.journal:
             unit: ['docker.service']
             reverse: true
             lines: 100

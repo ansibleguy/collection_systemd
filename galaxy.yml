@@ -1,11 +1,11 @@
 ---
 
-namespace: 'ansibleguy'
+namespace: 'oxlorg'
 name: 'systemd'
-version: 1.0.1
+version: 1.0.2
 readme: 'README.md'
 authors:
-  - 'AnsibleGuy <guy@ansibleguy.net>'
+  - 'OXL IT Services <contact+systemd@oxl.at>'
 description: "Ansible modules to work with systemd (journalctl)"
 license_file: 'LICENSE.txt'
 tags:
@@ -15,8 +15,12 @@ tags:
   - 'logs'
   - 'logging'
 dependencies: {}
-repository: 'https://github.com/ansibleguy/collection_systemd'
-documentation: 'https://systemd.ansibleguy.net'
-homepage: 'https://ansibleguy.net'
-issues: 'https://github.com/ansibleguy/collection_systemd/issues'
-build_ignore: []
+repository: 'https://github.com/O-X-L/ansible-collection-systemd'
+documentation: 'https://ansible-systemd.oxl.app'
+homepage: 'https://www.OXL.at'
+issues: 'https://github.com/O-X-L/ansible-collection-systemd/issues'
+build_ignore: [
+  '*_pytest.py', '*_testdata.py', '*pytest_cache', '*/_tmpl.py',
+  '.**', 'pytest.ini', 'requirements_*.txt',
+  'docs**', 'scripts**', 'venv**', 'Makefile', 'legacy**',
+]
